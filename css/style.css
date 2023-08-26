@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+}
+
+body{
+      font-family: 'Montserrat', sans-serif;
+}
+
+a{
+      font-size: 13px;
+}
+
+button{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      border: 1px solid #000;
+}
+
+.d-flex-center-property{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.d-flex-spacebetween-property{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+/* ================ */
+
+.container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 8%;
+}
+
+.container>nav>ul{
+      display: flex;
+      align-items: center;
+      list-style: none; 
+}
+
+.container>nav>ul>li>a{
+      text-decoration: none;
+      margin-right: 20px;
+      color: black;
+}
+
+.container>nav>ul>li>button {
+      padding: 10px 20px;
+      background-color: aquamarine;
+      cursor: pointer;
+}
+
+/* banner start */
+
+.banner_container{
+      height: 80vh;
+      padding: 30px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.banner_text,.banner_text h3{
+      font-size: 20px;
+      font-weight: 400;
+}
+
+.banner_text,.banner_text h2{
+      font-size: 70px;
+      font-weight: 700;
+      padding: 0;
+}
+
+.banner_text,.banner_image{
+      width: 50%;
+}
+
+main>.banner_container>.banner_image{
+      display:  flex;
+      justify-content: end;
+      align-items: center;
+}
+
+main>.banner_container>.banner_image>img{
+      width: 100%;
+}
+
+/* banner end */
