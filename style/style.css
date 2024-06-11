@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+:root{
+      --theme-color: #1A2130;
+      --title-color: #FDFFE2;
+      --para-color: #d8d8d8ad;
+      --button-color: #83B4FF;
+      --hover-color: #5A72A0;
+
+      --main-heading-80: 80px;
+      --main-heading-mobile-xs-50: 50px;
+      --main-heading-mobile-md-60: 60px;
+      --main-heading-weight-80: 800;
+      --main-heading-lineHight-80: 60px;
+
+      --secondary-heading-35: 35px;
+      --third-heading-28: 28px;
+      --fourth-heading-18: 18px;
+      --paragraph-11: 11px;
+      --paragraph-color-11: 11px;
+
+      --button-padding: 20px 30px;
+      --button-radius: 50px;
+      --button-background: linear-gradient(90deg, #FDFFE2 0%, rgb(213, 227, 248) 100%);
+
+      --hr-color: #fdffe260;
+}
+
+body{
+      background-color: var(--theme-color);
+      font-family: "DM Sans", sans-serif;
+}
+
+a{
+      text-decoration: none;
+}
+
+/* -------------------
+global css end
+-------------------------*/
+
+/* -------------------
+banner_container start
+-------------------------*/
+/* .banner_container{
+      width: 100%;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+} */
+
+.banner_container h1{
+      font-size: var(--main-heading-80);
+      font-weight: var(--main-heading-weight-80);
+      line-height: var(--main-heading-lineHight-80);
+      color: var(--title-color);
+}
+
+.type_text{
+      color: var(--title-color);
+}
+
+.banner_container p{
+      font-size: var(--paragraph-11);
+      color: var(--para-color);
+}
+
+.banner_btn{
+      font-size: var(--paragraph-11);
+      padding: var(--button-padding);
+      background: var(--button-background);
+      border-radius: var(--button-radius);
+      color: var(--theme-color);
+      transition: all 0.4s ease-in-out;
+}
+
+.banner_btn:hover{
+      background: var(--hover-color);
+      color: var(--para-color);
+      transition: all 0.4s ease-in-out;
+}
+/* -------------------
+banner_container end
+-------------------------*/
+
+/* -------------------
+image_container start
+-------------------------*/
+.image_container img{
+      border-radius: 30px;
+      width: 100%;
+      height: 100%;
+}
+/* -------------------
+image_container end
+-------------------------*/
+
+/* -------------------
+about start
+-------------------------*/
+.about_container h2{
+      color: var(--title-color);
+}
+
+hr{
+      color: var(--hr-color);
+      margin: 0;
+}
+
+.about_container p{
+      color: var(--para-color);
+      font-size: var(--paragraph-11);
+      margin: 0;
+}
+
+.about_container img{
+      width: 90%;
+      height: 60%;
+      object-fit: cover;
+      border-radius: 10px;
+}
+
+.about_right h1{
+      font-size: var(--main-heading-80);
+      color: var(--title-color);
+      margin: 0;
+}
+
+.about_right h5{
+      font-size: var(--fourth-heading-18);
+      color: var(--title-color);
+      margin: 0;
+}
+/* -------------------
+about end
+-------------------------*/
+
+
+
+
+
